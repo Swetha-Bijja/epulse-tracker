@@ -15,7 +15,8 @@ type State = {
 };
 
 type Action = {
-  setSelectedDateRange: (start: Date, end: Date) => void;
+  setSelectedDateRange: (start: Date
+    , end: Date) => void;
   setContainers: (data: IDragAndDropKitContainer[]) => void;
   setIsWeekendVisible: (value: boolean) => void;
 };
